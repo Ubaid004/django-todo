@@ -1,6 +1,6 @@
 FROM python:3
 
-RUN apt update && apt install -y sudo
+RUN apt update && apt install sudo
     pip install django==3.2\
     
 
