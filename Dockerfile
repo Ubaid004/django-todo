@@ -1,7 +1,7 @@
 FROM python:3
 
 RUN pip install django==3.2\
-    apt-get update && \
+    sudo apt-get update && \
       apt-get -y install sudo
 
 COPY . . 
