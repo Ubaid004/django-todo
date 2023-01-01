@@ -1,0 +1,7 @@
+version : "3.3"
+server : 
+	web :
+		build : .
+		port : 
+			- 8000:8000 
+	
